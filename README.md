@@ -36,17 +36,13 @@ ai         LLM function calling · agent loop · RAG · MCP · DeepSeek / OpenAI
 - 喜欢能"自解释"的系统：边界清晰、代码可读、测试可靠、文档能跑
 - 相信工程师的品味，体现在删掉的代码和写下的注释里
 
-## `$ cat how-i-build-agents.md`
+## `$ cat architecture.txt`
 
-```mermaid
-flowchart LR
-    U([User]) --> API[Spring Boot API]
-    API --> A[Agent Loop]
-    A --> T[Tool Registry]
-    A --> M[(Redis Memory)]
-    A --> R[(Vector Store)]
-    A --> L[LLM DeepSeek]
-    T --> S[Tools and MCP Servers]
+```text
+User ──▶ Spring Boot API ──▶ Agent Loop ──┬──▶ Tool Registry ──▶ Tools / MCP servers
+                                          ├──▶ Redis memory (session / cache)
+                                          ├──▶ Vector store (RAG)
+                                          └──▶ LLM (DeepSeek / OpenAI)
 ```
 
 ## `$ ls ~/building`
