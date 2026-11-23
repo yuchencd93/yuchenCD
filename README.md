@@ -45,8 +45,8 @@ flowchart LR
     A --> T[Tool Registry]
     A --> M[(Redis Memory)]
     A --> R[(Vector Store)]
-    A --> L[[LLM · DeepSeek]]
-    T --> S[Tools / MCP Servers]
+    A --> L[LLM DeepSeek]
+    T --> S[Tools and MCP Servers]
 ```
 
 ## `$ ls ~/building`
