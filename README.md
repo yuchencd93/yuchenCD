@@ -45,15 +45,13 @@ User ──▶ Spring Boot API ──▶ Agent Loop ──┬──▶ Tool Regi
                                           └──▶ LLM (DeepSeek / OpenAI)
 ```
 
-## `$ ls ~/building`
+## `$ ls ~/repos`
 
-🚧 Building in public:
-
-| Project | Stack | What it is |
+| Repo | Stack | What it is |
 | :--- | :--- | :--- |
-| **spring-ai-agent-lab** | Java 21 · Spring Boot 3 · DeepSeek | 可运行的 Agent 实验场：function calling / ReAct / RAG / SSE / 工具注册 |
-| **distributed-patterns-java** | Spring Boot · Redis · MySQL | 生产级分布式模式的最小可运行实现：幂等、分布式锁、限流、Outbox |
-| **dsh-plugins** | TypeScript · Node.js | DeepSeek Harness 生态的插件与工具 |
+| ✅ [**spring-ai-agent-lab**](https://github.com/yuchenCD/spring-ai-agent-lab) | Java 21 · Spring Boot 3 · DeepSeek | 手写 ReAct Agent 实验场：工具调用 / SSE 步进流式 / 对话记忆 / 26 tests |
+| 🚧 **distributed-patterns-java** | Spring Boot · Redis · MySQL | 生产级分布式模式的最小可运行实现：幂等、分布式锁、限流、Outbox |
+| 🚧 **dsh-plugins** | TypeScript · Node.js | DeepSeek Harness 生态的插件与工具 |
 
 ## `$ cat .plan`
 
