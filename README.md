@@ -49,7 +49,7 @@ User ──▶ Spring Boot API ──▶ Agent Loop ──┬──▶ Tool Regi
 
 | Repo | Stack | What it is |
 | :--- | :--- | :--- |
-| ✅ [**spring-ai-agent-lab**](https://github.com/yuchencd93/spring-ai-agent-lab) | Java 21 · Spring Boot 3 · DeepSeek | 手写 ReAct Agent 实验场：token 流式 / 并行工具 / RAG 知识库 / Redis 记忆 / 66 tests |
+| ✅ [**spring-ai-agent-lab**](https://github.com/yuchencd93/spring-ai-agent-lab) | Java 21 · Spring Boot 3 · DeepSeek | 手写 ReAct Agent 实验场：token 流式 / 并行工具 / RAG / Redis 记忆 / MCP 工具桥 / pgvector / 73 tests |
 | 🚧 **distributed-patterns-java** | Spring Boot · Redis · MySQL | 生产级分布式模式的最小可运行实现：幂等、分布式锁、限流、Outbox |
 | 🚧 **dsh-plugins** | TypeScript · Node.js | DeepSeek Harness 生态的插件与工具 |
 
